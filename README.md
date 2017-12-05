@@ -11,16 +11,16 @@ For convenience you can burn the ubuntu-minimal-image running:
 	or 
 	sudo ./burn_sd.sh /dev/mmcblkN
 
-where X is a letter from [b,c,...,f] and X is a number from [0,1,2...,9]
+where X is a letter from [b,c,...,f] and N is a number from [0,1,2...,9]
 
-*warning*
+#warning
 Make sure you find the correct device letter if you use USB reader/writer or device number if you use a builtin memory card reader/writer or you may WIPE your hdd
 
-History Log:
+#History Log:
 * initial commit
 * added kernel 4.14 files (boot, Image and modules)
 * added bootloader, format_sd.sh and burn_sd.sh
 
-To be continue:
+#To be continue:
 * upload kernel 4.14.3
 * finish README instructions
