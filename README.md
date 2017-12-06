@@ -2,7 +2,7 @@
 NanoPi DUO - Ubuntu Xenial Base Minimal Image (How to)
 
 * mainline kernel 4.14.0
-* mainline kernel 4.14.3
+* mainline kernel 4.14.3 (deb package)
 
 For convenience you can burn the ubuntu-minimal-image running:
 
@@ -16,11 +16,19 @@ where X is a letter from [b,c,...,f] and N is a number from [0,1,2...,9]
 # warning
 Make sure you find the correct device letter if you use USB reader/writer or device number if you use a builtin memory card reader/writer or you may **WIPE** your hdd
 
+# Kernel 4.14.3
+A deb package is made available.
+Download and install deb package:
+
+	dpkg -i linux-image-4.14.3-h2-4_1.0-1.deb
+
+
 # History Log:
 * initial commit
 * added kernel 4.14 files (boot, Image and modules)
 * added bootloader, format_sd.sh and burn_sd.sh
+* added linux-kernel-4.14.3 deb package
 
 # To be continue:
-* upload kernel 4.14.3
+* upload kernel 4.14.3 (done)
 * finish README instructions
