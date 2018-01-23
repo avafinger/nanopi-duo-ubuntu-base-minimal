@@ -3,6 +3,7 @@ NanoPi DUO - Ubuntu Xenial Base Minimal Image (How to)
 
 * mainline kernel 4.14.0
 * mainline kernel 4.14.3 (deb package)
+* mainline kernel 4.14.14
 
 For convenience you can burn the ubuntu-minimal-image running:
 
@@ -340,12 +341,12 @@ Up to date with 4.14.14 (stable)
 * added kernel 4.14 files (boot, Image and modules)
 * added bootloader, format_sd.sh and burn_sd.sh
 * added linux-kernel-4.14.3 deb package
-
-# To be continue:
-* upload kernel 4.14.3 (done)
 * updated to kernel 4.14.14 (done)
 * initrd fix (initramfs broken padding)
 * wrong defconfig fix
 * removed FBTFT and Touch for the 2.8 TFT (need pin revision)
 * build with gcc 7.2.1
+
+# To be continue:
+* upload kernel 4.14.3 (done)
 * finish README instructions
