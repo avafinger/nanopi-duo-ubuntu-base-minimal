@@ -4,7 +4,7 @@ NanoPi DUO - Ubuntu Xenial Base Minimal Image (How to)
 * mainline kernel 4.14.0
 * mainline kernel 4.14.3 (deb package)
 * mainline kernel 4.14.14
-* mainline kernel 4.14.15
+* mainline kernel 4.14.15 (* code freeze)
 
 For convenience you can burn the ubuntu-minimal-image running:
 
@@ -15,12 +15,14 @@ For convenience you can burn the ubuntu-minimal-image running:
 
 where X is a letter from [b,c,...,f] and N is a number from [0,1,2...,9]
 
-* New kernel 4.14.15
+New kernel 4.14.15
+
 
 	sudo chmod +x *.sh
 	sudo ./burn_sd_ng.sh /dev/sdX 
 	or 
 	sudo ./burn_sd_ng.sh /dev/mmcblkN
+
 
 
 # warning
