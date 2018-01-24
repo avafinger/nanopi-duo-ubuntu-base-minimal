@@ -381,8 +381,7 @@ Up to date with 4.14.14 (stable)
 
 # Bootlog linux 4.14.15
 
-* code freeze - to bring up FBTFT (hopefully) or i2c display and some optimizations
-
+	* code freeze - to bring up FBTFT (hopefully) or i2c display and some optimizations
 
 	[    0.000000] Booting Linux on physical CPU 0x0
 	[    0.000000] Linux version 4.14.15-h2-1 (alex@svn) (gcc version 7.2.1 20171011 (Linaro GCC 7.2-2017.11)) #1 SMP Tue Jan 23 21:44:19 -02 2018
