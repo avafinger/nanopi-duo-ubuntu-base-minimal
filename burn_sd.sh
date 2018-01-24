@@ -51,7 +51,7 @@ sync
 set -e
 pt_info "Formating sd card $out ..."
 
-part_position=20480   # KiB
+part_position=24576   # KiB
 boot_size=128         # MiB
 # Create beginning of disk
 pt_info "Zeroing mbr on $out ..."
