@@ -690,6 +690,12 @@ Up to date with 4.14.14 (stable)
 * build with gcc 7.2.1
 * updated to kernel 4.14.15 (code base is frozen for a while for optimizations)
 
+# Credits
+Kernel is based on Megous's work: https://github.com/megous/linux
+XR819 driver is based on Armbian's work
+U-boot is based on FriendlyElec's work
+Aditional work is done by me :)
+
 # To be continue:
 * upload kernel 4.14.3 (done)
 * finish README instructions
