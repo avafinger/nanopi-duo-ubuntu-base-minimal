@@ -689,6 +689,12 @@ Up to date with 4.14.14 (stable)
 * removed FBTFT and Touch for the 2.8 TFT (need pin revision)
 * build with gcc 7.2.1
 * updated to kernel 4.14.15 (code base is frozen for a while for optimizations)
+* DTB with 2.8 TFT and Touch disabled
+
+Updated DTB to disable 2.8 FTF and Touch on wrong pins on SPI.1
+Overwrite **nanopi-duo.dtb_4.14.15-h2-1** on /boot partition
+  
+	sudo cp -avf nanopi-duo.dtb_4.14.15-h2-1 /media/USER/boot/.
 
 # Credits
 Kernel is based on Megous's work: https://github.com/megous/linux
