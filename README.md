@@ -694,7 +694,15 @@ Up to date with 4.14.14 (stable)
 Updated DTB to disable 2.8 FTF and Touch on wrong pins on SPI.1
 Overwrite **nanopi-duo.dtb_4.14.15-h2-1** on /boot partition
   
-	sudo cp -avf nanopi-duo.dtb_4.14.15-h2-1 /media/USER/boot/.
+	sudo cp -avf nanopi-duo.dtb_4.14.15-h2-1 /media/[USER]/boot/.
+
+
+# spidev
+
+DTB with /dev/spidev1.0 available:
+
+	sudo cp -avf nanopi-duo.dtb_4.14.15-h2-1_spidev /media/[USER]/boot/nanopi-duo.dtb_4.14.15-h2-1
+
 
 # Credits
 Kernel is based on Megous's work: https://github.com/megous/linux
